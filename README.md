@@ -6,6 +6,9 @@ Using Excel, raw survey data was cleaned, categorized, and transformed into an i
 Key insights related to sleep duration, phone usage, and breakfast habits.
 The project demonstrates end-to-end data analysis using Excel — from raw data to actionable insights.
 
+# Dashboard Preview
+![Sleep Pattern & Lifestyle Analysis Dashboard](sleep_dashboard.png)
+
 ## Objectives
 - Analyze average sleep duration and tiredness levels.
 - Understand how insufficient sleep affects fatigue.
