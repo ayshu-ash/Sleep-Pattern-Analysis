@@ -7,7 +7,7 @@ Key insights related to sleep duration, phone usage, and breakfast habits.
 The project demonstrates end-to-end data analysis using Excel — from raw data to actionable insights.
 
 # Dashboard Preview
-![Sleep Pattern & Lifestyle Analysis Dashboard](sleep_dashboard.png)
+![Sleep Pattern & Lifestyle Analysis Dashboard](Sleep_Dashboard.png)
 
 ## Objectives
 - Analyze average sleep duration and tiredness levels.
