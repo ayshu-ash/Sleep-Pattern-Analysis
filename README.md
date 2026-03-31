@@ -34,15 +34,16 @@ To ensure the integrity of the insights, I followed a professional data pipeline
      * Target/Healthy (≥8 hrs)
        
    - **Quantitative Scaling:** Analyzed the Tired_Level as a 1–5 Likert Scale, calculating weighted averages to provide a "Fatigue Score" for different lifestyle segments.
-      **1 - Peak Vitality** (Maximum energy; optimal cognitive performance)
      
-      **2 - Functional** (Normal daily energy; no significant fatigue reported)
+      * **1 - Peak Vitality** (Maximum energy; optimal cognitive performance)
      
-      **3 - Moderately Fatigued**(Population Mean: 3.1) Notable dip in energy; productivity starts to decline
+      * **2 - Functional** (Normal daily energy; no significant fatigue reported)
      
-      **4 - Highly Exhausted** (Significant fatigue impacting productivity and mood)
+      * **3 - Moderately Fatigued**(Population Mean: 3.1) Notable dip in energy; productivity starts to decline
      
-      **5 - Critical Fatigue** (Extreme exhaustion, difficulty performing tasks effectively)
+      * **4 - Highly Exhausted** (Significant fatigue impacting productivity and mood)
+     
+      * **5 - Critical Fatigue** (Extreme exhaustion, difficulty performing tasks effectively)
      
    - **Statistical Validation (Correlation Analysis):** Executed a Pearson Correlation (r = -0.19) in Excel. This mathematically confirmed a weak relationship between sleep hours and fatigue, identifying that "Quantity" alone was not the primary driver of tiredness.
    - **Integrity Check:** Resolved data type inconsistencies (Text vs. Number) to ensure all KPI cards reflected accurate mathematical means.
