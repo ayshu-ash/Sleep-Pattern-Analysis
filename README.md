@@ -13,7 +13,7 @@ Most health advice focuses purely on "sleep hours." However, productivity remain
 - Records: Survey based lifestyle and sleep data
 
 ## Dashboard Preview
-![Sleep Pattern & Lifestyle Analysis Dashboard](Sleep_Dashboard.png)
+![Sleep Pattern & Lifestyle Analysis Dashboard](sleep_dashboard.png)
 
 ## Business Intelligence Dashboard
 The final dashboard was built in Excel, featuring dynamic KPIs, Slicers for interactivity, and a high-contrast "Dark Mode" aesthetic for professional readability.
