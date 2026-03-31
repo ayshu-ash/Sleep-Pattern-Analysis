@@ -40,11 +40,11 @@ To ensure the integrity of the insights, I followed a professional data pipeline
    - **Integrity Check:** Resolved data type inconsistencies (Text vs. Number) to ensure all KPI cards reflected accurate mathematical means.
    - **Pivot Table Architecture:** Developed a robust backend using Pivot Tables to allow for multi-dimensional filtering via Slicers.
    - **Visualization Strategy:**
-         * **Donut Charts:-** Used to represent the distribution of the binary variable “Enough Sleep”.
+     * **Donut Charts:-** Used to represent the distribution of the binary variable “Enough Sleep”.
      
-         * **Bar Charts:-** Used for categorical comparisons such as Breakfast habits and Phone Usage.
+      * **Bar Charts:-** Used for categorical comparisons such as Breakfast habits and Phone Usage.
      
-         * **Scatter Plots:-** Used to visualize the distribution and variance across all 103 respondents, effectively acting as a population density map.
+      * **Scatter Plots:-** Used to visualize the distribution and variance across all 103 respondents, effectively acting as a population density map.
 
 ## Key Insights
    - **The Sleep Satisfaction Gap:** While the average sleep duration is 6.7 hours, the Enough Sleep Distribution reveals a 66% dissatisfaction rate. This indicates a perception deficit, where individuals believe they are getting sufficient sleep, but fatigue levels and satisfaction data suggest otherwise.
