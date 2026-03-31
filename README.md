@@ -27,24 +27,32 @@ The final dashboard was built in Excel, featuring dynamic KPIs, Slicers for inte
 To ensure the integrity of the insights, I followed a professional data pipeline:
    - **Data Normalization:** Cleaned and standardized Binary Variables (Breakfast, Phone Usage, Phone Reach) to ensure 100% accuracy in Pivot Table aggregations.
    - **Feature Engineering (Data Binning):** I applied Data Binning to the continuous Sleep_Hours variable to reduce "granularity noise." I created three distinct cohorts:
-          * High Risk (≤5 hrs)
-          * Sub-optimal (6–7 hrs)
-          * Target/Healthy (≥8 hrs)
+     * High Risk (≤5 hrs)
+       
+     * Sub-optimal (6–7 hrs)
+       
+     * Target/Healthy (≥8 hrs)
+       
    - **Quantitative Scaling:** Analyzed the Tired_Level as a 1–5 Likert Scale, calculating weighted averages to provide a "Fatigue Score" for different lifestyle segments.
-          **1 - Peak Vitality** (Maximum energy; optimal cognitive performance)
-          **2 - Functional** (Normal daily energy; no significant fatigue reported)
-          **3 - Moderately Fatigued**(Population Mean: 3.1) Notable dip in energy; productivity starts to decline
-          **4 - Highly Exhausted** (Significant fatigue impacting productivity and mood)
-          **5 - Critical Fatigue** (Extreme exhaustion, difficulty performing tasks effectively)
-   - **Statistical Validation (Correlation Analysis):** Executed a Pearson Correlation ($r = -0.19$) in Excel. This mathematically confirmed a weak relationship between sleep hours and fatigue, identifying that "Quantity" alone was not the primary driver of tiredness.
+      **1 - Peak Vitality** (Maximum energy; optimal cognitive performance)
+     
+      **2 - Functional** (Normal daily energy; no significant fatigue reported)
+     
+      **3 - Moderately Fatigued**(Population Mean: 3.1) Notable dip in energy; productivity starts to decline
+     
+      **4 - Highly Exhausted** (Significant fatigue impacting productivity and mood)
+     
+      **5 - Critical Fatigue** (Extreme exhaustion, difficulty performing tasks effectively)
+     
+   - **Statistical Validation (Correlation Analysis):** Executed a Pearson Correlation (r = -0.19) in Excel. This mathematically confirmed a weak relationship between sleep hours and fatigue, identifying that "Quantity" alone was not the primary driver of tiredness.
    - **Integrity Check:** Resolved data type inconsistencies (Text vs. Number) to ensure all KPI cards reflected accurate mathematical means.
    - **Pivot Table Architecture:** Developed a robust backend using Pivot Tables to allow for multi-dimensional filtering via Slicers.
    - **Visualization Strategy:**
      * **Donut Charts:-** Used to represent the distribution of the binary variable “Enough Sleep”.
      
-      * **Bar Charts:-** Used for categorical comparisons such as Breakfast habits and Phone Usage.
+     * **Bar Charts:-** Used for categorical comparisons such as Breakfast habits and Phone Usage.
      
-      * **Scatter Plots:-** Used to visualize the distribution and variance across all 103 respondents, effectively acting as a population density map.
+     * **Scatter Plots:-** Used to visualize the distribution and variance across all 103 respondents, effectively acting as a population density map.
 
 ## Key Insights
    - **The Sleep Satisfaction Gap:** While the average sleep duration is 6.7 hours, the Enough Sleep Distribution reveals a 66% dissatisfaction rate. This indicates a perception deficit, where individuals believe they are getting sufficient sleep, but fatigue levels and satisfaction data suggest otherwise.
