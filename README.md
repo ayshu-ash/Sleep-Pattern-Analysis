@@ -53,13 +53,13 @@ To ensure the integrity of the insights, I followed a professional data pipeline
      
      * **Bar Charts:-** Used for categorical comparisons such as Breakfast habits and Phone Usage.
      
-     * **Scatter Plots:-** Used to visualize the distribution and variance across all 103 respondents, effectively acting as a population density map.
+     * **Scatter Plots:-** Used to visualize the correlation between Sleep Hours and Tiredness Averages, identifying non-linear trends across different sleep cohorts.
 
 ## Key Insights
    - **The Sleep Satisfaction Gap:** While the average sleep duration is 6.7 hours, the Enough Sleep Distribution reveals a 66% dissatisfaction rate. This indicates a perception deficit, where individuals believe they are getting sufficient sleep, but fatigue levels and satisfaction data suggest otherwise.
-   - **The Nutritional Lever:** Analysis shows that skipping breakfast is associated with a 17% increase in fatigue scores (3.4 vs 2.9 baseline). This identifies morning nutrition as a high-impact, low-cost intervention for improving daily focus and energy levels.
-   - **The Digital Masking Paradox:** Both Phone Usage and Phone Reach exhibit similar average fatigue scores (3.0 vs 3.2 for non-users). This suggests a phenomenon of digital stimulation, where screen exposure may temporarily suppress perceived fatigue (e.g., via reduced melatonin activity), effectively masking underlying exhaustion—a potential indicator of long-term burnout risk.
-
+   - **The Nutritional Lever:** Analysis shows that skipping breakfast is associated with a 15% increase in fatigue scores (3.4 vs 2.9 baseline). This identifies morning nutrition as a high-impact, low-cost intervention for improving daily focus and energy levels.
+   - **The Digital Masking Paradox:** The data reveals a surprising trend: individuals who reported No late-night phone usage actually had a higher fatigue score (3.2) than those who did (3.0). This suggests a 'Digital Stimulation' effect where screen time might be temporarily masking perceived tiredness, even if it's not providing real rest.
+     
 ## Business Takeway
 - **The "Breakfast Boost":** Eating breakfast is the fastest way to lower fatigue. It reduces tiredness by 15%, making it more effective than just sleeping an extra hour.
 - **Fix the "6-7 Hour" Trap:** People sleeping 6–7 hours actually feel more tired than those sleeping less. The goal should be reaching 8+ hours to see a real energy improvement.
