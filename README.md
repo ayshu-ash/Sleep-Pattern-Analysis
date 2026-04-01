@@ -6,7 +6,8 @@ This end-to-end project investigates why 66% of people feel they don't get enoug
 
 ## Problem Statement
 Most health advice focuses purely on "sleep hours." However, productivity remains low even for those meeting these goals.
-    **The Goal:** Identify if "Quality" factors (Breakfast, Phone proximity) have a higher ROI (Return on Investment) for alertness than simply "Quantity" of sleep.
+    
+   **The Goal:** Identify if "Quality" factors (Breakfast, Phone proximity) have a higher ROI (Return on Investment) for alertness than simply "Quantity" of sleep.
 
 ## Dataset
 - Source: sleep_data.csv (Kaggle)
