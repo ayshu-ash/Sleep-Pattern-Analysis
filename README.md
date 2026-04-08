@@ -2,7 +2,7 @@
 ## An End-to-End Data Analytics Project investigating the drivers of daily fatigue.
 
 ## Overview
-This end-to-end project investigates why 66% of people feel they don't get enough sleep, even when they average 6.7 hours of rest. I analyzed a dataset of 103 individuals to see if morning nutrition and phone habits impact tiredness more than sleep duration itself.
+This end-to-end project investigates why 66% of people feel they don't get enough sleep, even when they get average 6.7 hours of rest. I analyzed a dataset of 103 individuals to see if morning nutrition and phone habits impact tiredness more than sleep duration itself.
 
 ## Problem Statement
 Most health advice focuses purely on "sleep hours." However, productivity remains low even for those meeting these goals.
