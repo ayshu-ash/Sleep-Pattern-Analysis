@@ -21,7 +21,7 @@ The final dashboard was built in Excel, featuring dynamic KPIs, Slicers for inte
 
 # Key Performance Indicators (KPIs)
 - **Average Sleep Duration:** 6.7 hours
-- **Average Tiredness Level:** 3.1 / 5.0
+- **Average Tiredness Level:** 3.1 / 5
 - **Sleep Dissatisfaction Rate:** 66% of respondents feel they do not get enough sleep.
 
 ## The Analytical Workflow (Data Preparation)
