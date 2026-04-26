@@ -2,13 +2,13 @@
 ## An End-to-End Data Analytics Project investigating the drivers of daily fatigue.
 
 ## Overview
-This end-to-end project investigates why 66% of people feel they don't get enough sleep, even when they get average 6.7 hours of rest. I analyzed a dataset of 103 individuals to see if morning nutrition and phone habits impact tiredness more than sleep duration itself.
+This project investigates the "Sleep Satisfaction Gap"—why a majority of individuals feel fatigued despite meeting average sleep duration milestones. By analyzing a dataset of 103 survey respondents, this study identifies how morning nutrition and nighttime digital habits influence perceived tiredness more than sleep quantity alone.
 
 ## Problem Statement
-Most health advice focuses purely on "sleep hours." However, productivity remains low even for those meeting these goals.
+Most health advice focuses exclusively on "sleep hours" (Quantity). However, productivity remains low even for those meeting these goals.
     
-   **The Goal:** Identify if "Quality" factors (Breakfast, Phone proximity) have a higher ROI (Return on Investment) for alertness than simply "Quantity" of sleep.
-
+   **The Goal:** Identify if "Quality" factors (Breakfast, Phone Habits) provide a higher Return on Investment (ROI) for daily alertness than simply increasing sleep time.
+   
 ## Dataset
 - Source: sleep_data.csv (Kaggle)
 - Records: Survey based lifestyle and sleep data
@@ -27,7 +27,7 @@ The final dashboard was built in Excel, featuring dynamic KPIs, Slicers for inte
 ## The Analytical Workflow (Data Preparation)
 To ensure the integrity of the insights, I followed a professional data pipeline:
    - **Data Normalization:** Cleaned and standardized Binary Variables (Breakfast, Phone Usage, Phone Reach) to ensure 100% accuracy in Pivot Table aggregations.
-   - **Feature Engineering (Data Binning):** I applied Data Binning to the continuous Sleep_Hours variable to reduce "granularity noise." I created three distinct cohorts:
+   - **Feature Engineering (Data Binning):** Created three distinct sleep cohorts to reduce granularity noise:
      * High Risk (≤5 hrs)
        
      * Sub-optimal (6–7 hrs)
@@ -46,7 +46,7 @@ To ensure the integrity of the insights, I followed a professional data pipeline
      
       * **5 - Critical Fatigue** (Extreme exhaustion, difficulty performing tasks effectively)
      
-   - **Statistical Validation (Correlation Analysis):** Executed a Pearson Correlation (r = -0.19) in Excel. This mathematically confirmed a weak relationship between sleep hours and fatigue, identifying that "Quantity" alone was not the primary driver of tiredness.
+   - **Statistical Validation (Correlation Analysis):** Executed a Pearson Correlation in excel, resulting in r = -0.19. This mathematically confirmed a weak relationship between sleep hours and fatigue, identifying that "Quantity" alone was not the primary driver of tiredness.
    - **Integrity Check:** Resolved data type inconsistencies (Text vs. Number) to ensure all KPI cards reflected accurate mathematical means.
    - **Pivot Table Architecture:** Developed a robust backend using Pivot Tables to allow for multi-dimensional filtering via Slicers.
    - **Visualization Strategy:**
@@ -57,21 +57,20 @@ To ensure the integrity of the insights, I followed a professional data pipeline
      * **Scatter Plots:-** Used to visualize the correlation between Sleep Hours and Tiredness Averages, identifying non-linear trends across different sleep cohorts.
 
 ## Key Insights
-   - **The Sleep Satisfaction Gap:** While the average sleep duration is 6.7 hours, the Enough Sleep Distribution reveals a 66% dissatisfaction rate. This indicates a perception deficit, where individuals believe they are getting sufficient sleep, but fatigue levels and satisfaction data suggest otherwise.
-   - **The Nutritional Lever:** Analysis shows that skipping breakfast is associated with a 15% increase in fatigue scores (3.4 vs 2.9 baseline). This identifies morning nutrition as a high-impact, low-cost intervention for improving daily focus and energy levels.
-   - **The Digital Masking Paradox:** The data reveals a surprising trend: individuals who reported No late-night phone usage actually had a higher fatigue score (3.2) than those who did (3.0). This suggests a 'Digital Stimulation' effect where screen time might be temporarily masking perceived tiredness, even if it's not providing real rest.
+   - **The Sleep Satisfaction Gap:** While the average sleep duration is 6.7 hours, there is a 66% dissatisfaction rate regarding sleep quality. This highlights a significant gap between time spent in bed and actual recovery.
+   - **The Nutritional Lever:** Analysis identifies morning nutrition as a high-impact, low-cost intervention. Consistent breakfast consumption is associated with a 15% reduction in fatigue levels (2.9 vs. 3.4 baseline), proving more effective for alertness than sleep duration alone.
+   - **The Digital Masking Paradox:** The data reveals a surprising trend: individuals who reported No late-night phone usage actually had a higher fatigue score (3.2) than those who did (3.1). This suggests a 'Digital Stimulation' effect where screen time might be temporarily masking perceived tiredness, even if it's not providing real rest.
      
-## Business Takeway
-- **The "Breakfast Boost":** Eating breakfast is the fastest way to lower fatigue. It reduces tiredness by 15%, making it more effective than just sleeping an extra hour.
-- **Fix the "6-7 Hour" Trap:** People sleeping 6–7 hours actually feel more tired than those sleeping less. The goal should be reaching 8+ hours to see a real energy improvement.
-- **Phone Habits Matter:** Keeping a phone nearby at night leads to higher exhaustion. Improving "Digital Hygiene" is a zero-cost way to make sleep feel more restful.
-
-## Conclusion
-This study proves that sleep quantity is not the only factor in energy. While 6.7 hours is the average sleep time, 66% of people still feel tired. The data shows a weak correlation (r = -0.19) between sleep hours and tiredness, meaning that lifestyle choices—like eating breakfast and putting the phone away—are often more important than the time spent in bed. To truly beat fatigue, we must focus on quality habits, not just the clock.
+## Business Takeaways:
+- **The "Breakfast Boost":** For those getting 8+ hours of sleep, skipping breakfast led to a tiredness spike of 3.7. Eating breakfast is the fastest way to stabilize energy, regardless of sleep duration.
+- **Fix the "6-7 Hour" Trap:** This group represents the most common sleep bracket but lacks a strong "recovery" score. For these individuals, habit changes (like removing the phone) saw tiredness drop from 3.1 to 2.3.
+- **The 5-Hour Danger Zone:** Once sleep drops below 5 hours, fatigue reaches critical levels (up to 4.4). At this threshold, lifestyle habits struggle to compensate for the physiological lack of rest.
 
 ## Project Limitations
 To maintain transparency, the following limitations were considered:
 - **Sample Size (N = 103):** The dataset is relatively small, so findings are useful for trends but may not represent the entire population.
 - **Self-Reporting Bias:** Tiredness levels are based on personal perception, which can vary between individuals.
-- **Adrenaline Masking:** In very low sleep cases (≤5 hours), people may report lower fatigue due to temporary alertness from stress, which can affect accuracy.
 - **Correlation vs Causation:** The analysis identifies relationships (e.g., breakfast and tiredness) but does not prove direct cause-and-effect.
+  
+## Conclusion
+This study proves that sleep quantity is not the only factor in energy. While 6.7 hours is the average sleep time, 66% of people still feel tired. The data shows a weak correlation (r = -0.19) between sleep hours and tiredness, meaning that lifestyle choices—like eating breakfast and putting the phone away—are often more important than the time spent in bed. To truly beat fatigue, we must focus on quality habits, not just the clock.
