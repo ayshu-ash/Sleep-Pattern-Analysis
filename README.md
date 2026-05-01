@@ -62,8 +62,8 @@ To ensure the integrity of the insights, I followed a professional data pipeline
    - **The Digital Masking Paradox:** The data reveals a surprising trend: individuals who reported No late-night phone usage actually had a higher fatigue score (3.2) than those who did (3.1). This suggests a 'Digital Stimulation' effect where screen time might be temporarily masking perceived tiredness, even if it's not providing real rest.
      
 ## Business Takeaways:
-- **The "Breakfast Boost":** For those getting 8+ hours of sleep, skipping breakfast led to a tiredness spike of 3.7. Eating breakfast is the fastest way to stabilize energy, regardless of sleep duration.
-- **Fix the "6-7 Hour" Trap:** This group represents the most common sleep bracket but lacks a strong "recovery" score. For these individuals, habit changes (like removing the phone) saw tiredness drop from 3.1 to 2.3.
+- **The "Breakfast Boost":** For those getting 8+ hours of sleep, skipping breakfast led to a tiredness spike of 3.4. Eating breakfast is the fastest way to stabilize energy, regardless of sleep duration.
+- **Fix the "6-7 Hour" Trap:** This group represents the most common sleep bracket but lacks a strong "recovery" score. For these individuals, habit changes (like removing the phone) saw tiredness drop from 3.2 to 2.3.
 - **The 5-Hour Danger Zone:** Once sleep drops below 5 hours, fatigue reaches critical levels (up to 4.4). At this threshold, lifestyle habits struggle to compensate for the physiological lack of rest.
 
 ## Project Limitations
@@ -73,4 +73,4 @@ To maintain transparency, the following limitations were considered:
 - **Correlation vs Causation:** The analysis identifies relationships (e.g., breakfast and tiredness) but does not prove direct cause-and-effect.
   
 ## Conclusion
-This study proves that sleep quantity is not the only factor in energy. While 6.7 hours is the average sleep time, 66% of people still feel tired. The data shows a weak correlation (r = -0.19) between sleep hours and tiredness, meaning that lifestyle choices—like eating breakfast and putting the phone away—are often more important than the time spent in bed. To truly beat fatigue, we must focus on quality habits, not just the clock.
+This study indicates that sleep quantity is not the only factor in energy. While 6.7 hours is the average sleep time, 66% of people still feel tired. The data shows a weak correlation (r = -0.19) between sleep hours and tiredness, meaning that lifestyle choices—like eating breakfast and putting the phone away—are often more important than the time spent in bed. To truly beat fatigue, we must focus on quality habits, not just the clock.
